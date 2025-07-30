@@ -1,0 +1,14 @@
+{
+  "routes": {
+    "/": {},
+    "/about": {},
+    "/about_digital_markating": {},
+    "/about_page": {},
+    "/about_website_development": {},
+    "/contact_page": {},
+    "/hero": {},
+    "/logos": {},
+    "/quote": {},
+    "/services": {}
+  }
+}
