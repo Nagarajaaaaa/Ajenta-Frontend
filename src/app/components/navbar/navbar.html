@@ -1,0 +1,44 @@
+
+
+
+<!-- Contact Floating Button -->
+<div class="contact-us-btn">
+  <i class="bi bi-envelope"></i> Contact Us
+</div>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+  <div class="container">
+   <a class="navbar-brand fw-bold" href="#">
+  <img [src]="image" style="height: 10%;width: 20%;" class="logo-image" alt="Logo"> Technology
+</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#mainNavbar">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNavbar">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link active" routerLink="/hero">Home</a></li>
+        <li class="nav-item"><a class="nav-link" routerLink="about_page">About</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" routerLink="#" data-bs-toggle="dropdown">Web Development</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="/about_website_development">Web Development</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" data-bs-toggle="dropdown">Digital Marketing</a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" routerLink="/about_digital_markating">Service</a></li>
+          </ul>
+        </li>
+       
+        
+        <li class="nav-item"><a class="nav-link" routerLink="/contact_page">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+
